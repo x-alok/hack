@@ -1,0 +1,6 @@
+{
+  "name": "Hackathon Management System",
+  "description": "A full-stack platform for running hackathons with dashboard statistics, team forming, project submission, scoring, real-time leaderboards, mentor matching, and administrative panels.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

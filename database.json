@@ -1,0 +1,284 @@
+{
+  "users": [
+    {
+      "id": "u-1",
+      "name": "Alok Kumar",
+      "email": "alokas096@gmail.com",
+      "password": "$2b$10$2ovn/n1sXVJ.WaxzhnOmUegD1gbgnWgJuHHv6GNHsh.Wkto2K1Ah6",
+      "role": "admin",
+      "createdAt": "2026-06-09T18:19:37.644Z"
+    },
+    {
+      "id": "u-2",
+      "name": "John Doe",
+      "email": "john@hackathon.com",
+      "password": "$2b$10$2ovn/n1sXVJ.WaxzhnOmUegD1gbgnWgJuHHv6GNHsh.Wkto2K1Ah6",
+      "role": "participant",
+      "createdAt": "2026-06-09T18:19:37.782Z"
+    },
+    {
+      "id": "u-3",
+      "name": "Jane Smith",
+      "email": "jane@hackathon.com",
+      "password": "$2b$10$2ovn/n1sXVJ.WaxzhnOmUegD1gbgnWgJuHHv6GNHsh.Wkto2K1Ah6",
+      "role": "participant",
+      "createdAt": "2026-06-09T18:19:37.979Z"
+    },
+    {
+      "id": "u-4",
+      "name": "Alice Johnson",
+      "email": "alice@hackathon.com",
+      "password": "$2b$10$2ovn/n1sXVJ.WaxzhnOmUegD1gbgnWgJuHHv6GNHsh.Wkto2K1Ah6",
+      "role": "participant",
+      "createdAt": "2026-06-09T18:19:38.174Z"
+    },
+    {
+      "id": "u-5",
+      "name": "Dr. Sarah Connor",
+      "email": "sarah@mentor.com",
+      "password": "$2b$10$2ovn/n1sXVJ.WaxzhnOmUegD1gbgnWgJuHHv6GNHsh.Wkto2K1Ah6",
+      "role": "mentor",
+      "createdAt": "2026-06-09T18:19:38.345Z"
+    },
+    {
+      "id": "u-6",
+      "name": "Marcus Aurelius",
+      "email": "marcus@mentor.com",
+      "password": "$2b$10$2ovn/n1sXVJ.WaxzhnOmUegD1gbgnWgJuHHv6GNHsh.Wkto2K1Ah6",
+      "role": "mentor",
+      "createdAt": "2026-06-09T18:19:38.525Z"
+    },
+    {
+      "id": "u-7",
+      "name": "Bob Wilson",
+      "email": "bob@hackathon.com",
+      "password": "$2b$10$2ovn/n1sXVJ.WaxzhnOmUegD1gbgnWgJuHHv6GNHsh.Wkto2K1Ah6",
+      "role": "participant",
+      "createdAt": "2026-06-09T18:19:38.728Z"
+    }
+  ],
+  "hackathons": [
+    {
+      "id": "h-1",
+      "title": "Global Generative AI Sprint",
+      "description": "Build helpful agents, intelligent assistants, and innovative web apps leveraging state-of-the-art Generative AI models. Showcase technical execution, utility, and UI polish.",
+      "startDate": "2026-06-01",
+      "endDate": "2026-06-15",
+      "prizePool": "$25,000",
+      "theme": "Generative AI, LLMs, Antigravity Agents",
+      "rules": "1. Projects must use a modern AI SDK (e.g., Gemini API).\n2. Teams can have up to 4 members.\n3. All submissions must include open source code and a live demo link.",
+      "createdAt": "2026-06-09T18:19:38.728Z"
+    },
+    {
+      "id": "h-2",
+      "title": "GreenCode Challenge",
+      "description": "Design highly performant, serverless climate tracking systems, energy grid optimizers, or carbon calculator apps to support sustainable developer ecosystems.",
+      "startDate": "2026-06-10",
+      "endDate": "2026-06-24",
+      "prizePool": "$15,000",
+      "theme": "Sustainability, ClimateTech, Clean Coding",
+      "rules": "1. Open to participants worldwide.\n2. Projects must measure or optimize resource efficiency.\n3. Submission slides (PPT/PDF) are highly valued.",
+      "createdAt": "2026-06-09T18:19:38.728Z"
+    },
+    {
+      "id": "h-3",
+      "title": "Mobile Wellness Hackathon",
+      "description": "Create mobile-web interactive helpers that support mental tracking, breathing, posture alignment, or physical health diagnostics using React.",
+      "startDate": "2026-05-10",
+      "endDate": "2026-05-25",
+      "prizePool": "$10,000",
+      "theme": "Healthcare, Accessibility, Interactive UX",
+      "rules": "1. Projects must be mobile-responsive.\n2. Audio prompts or visual signals are a big plus.\n3. The design must be extremely clean.",
+      "createdAt": "2026-06-09T18:19:38.728Z"
+    }
+  ],
+  "teams": [
+    {
+      "id": "t-1",
+      "teamName": "Alpha Agents",
+      "description": "Building contextual AI agents that automate customer flows.",
+      "maxMembers": 4,
+      "leaderId": "u-2",
+      "hackathonId": "h-1"
+    },
+    {
+      "id": "t-2",
+      "teamName": "EcoCoders",
+      "description": "Pioneering cloud serverless energy usage calculators.",
+      "maxMembers": 3,
+      "leaderId": "u-4",
+      "hackathonId": "h-2"
+    },
+    {
+      "id": "t-3",
+      "teamName": "Mindful Tech",
+      "description": "Developing immersive breath pacing web apps with WebAudio.",
+      "maxMembers": 2,
+      "leaderId": "u-7",
+      "hackathonId": "h-3"
+    }
+  ],
+  "teamMembers": [
+    {
+      "id": "tm-1",
+      "teamId": "t-1",
+      "userId": "u-2"
+    },
+    {
+      "id": "tm-2",
+      "teamId": "t-1",
+      "userId": "u-3"
+    },
+    {
+      "id": "tm-3",
+      "teamId": "t-2",
+      "userId": "u-4"
+    },
+    {
+      "id": "tm-4",
+      "teamId": "t-3",
+      "userId": "u-7"
+    }
+  ],
+  "mentors": [
+    {
+      "id": "m-1",
+      "userId": "u-5",
+      "skills": "React, LLMs, Node.js, NLP Engineer",
+      "experience": "8 Years Sr Scientist at DeepMind",
+      "linkedin": "https://linkedin.com/in/sarah-science",
+      "availability": "Weekday evenings (6:00 PM - 8:00 PM UTC)"
+    },
+    {
+      "id": "m-2",
+      "userId": "u-6",
+      "skills": "Distributed Databases, System Architecture, UI/UX Designer",
+      "experience": "12 Years Tech Lead at Google Cloud",
+      "linkedin": "https://linkedin.com/in/marcus-architect",
+      "availability": "Weekends (10:00 AM - 4:00 PM UTC)"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "s-1",
+      "userId": "u-2",
+      "hackathonId": "h-1",
+      "teamId": "t-1",
+      "projectTitle": "Smart-Agent CRM Companion",
+      "description": "An AI-powered customer relationship assistant that reads real-time tickets, categorizes them instantly, drafts professional email responses, and triggers custom webhook automations.",
+      "githubLink": "https://github.com/john/smart-crm",
+      "demoLink": "https://smart-crm-agent.vercel.app",
+      "pptUrl": "",
+      "pdfUrl": "",
+      "screenshotUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
+      "scores": [
+        {
+          "criteria": "innovation",
+          "score": 23,
+          "graderId": "u-5"
+        },
+        {
+          "criteria": "technical",
+          "score": 24,
+          "graderId": "u-5"
+        },
+        {
+          "criteria": "uiux",
+          "score": 18,
+          "graderId": "u-5"
+        },
+        {
+          "criteria": "impact",
+          "score": 14,
+          "graderId": "u-5"
+        },
+        {
+          "criteria": "presentation",
+          "score": 13,
+          "graderId": "u-5"
+        }
+      ],
+      "totalScore": 92,
+      "averageScore": 92,
+      "createdAt": "2026-06-03T10:15:00.000Z"
+    },
+    {
+      "id": "s-2",
+      "userId": "u-7",
+      "hackathonId": "h-3",
+      "teamId": "t-3",
+      "projectTitle": "BreatheIn Mobile Pacer",
+      "description": "A beautiful web app guiding deep paced breathing loops with an elegant pulsing radial gradient, synthetic ambient soundscapes, and comprehensive daily engagement logs.",
+      "githubLink": "https://github.com/bob/breathe-in",
+      "demoLink": "https://breathe-pacer.vercel.app",
+      "pptUrl": "",
+      "pdfUrl": "",
+      "screenshotUrl": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&q=80&w=800",
+      "scores": [
+        {
+          "criteria": "innovation",
+          "score": 21,
+          "graderId": "u-6"
+        },
+        {
+          "criteria": "technical",
+          "score": 20,
+          "graderId": "u-6"
+        },
+        {
+          "criteria": "uiux",
+          "score": 20,
+          "graderId": "u-6"
+        },
+        {
+          "criteria": "impact",
+          "score": 13,
+          "graderId": "u-6"
+        },
+        {
+          "criteria": "presentation",
+          "score": 14,
+          "graderId": "u-6"
+        }
+      ],
+      "totalScore": 88,
+      "averageScore": 88,
+      "createdAt": "2026-05-24T18:30:00.000Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-1",
+      "senderId": "u-2",
+      "teamId": "t-1",
+      "message": "Hey team, let's start building our agent logic!",
+      "senderName": "John Doe",
+      "timestamp": "2026-06-09T17:19:38.728Z"
+    },
+    {
+      "id": "msg-2",
+      "senderId": "u-3",
+      "teamId": "t-1",
+      "message": "Sounds great! I will work on the frontend structure.",
+      "senderName": "Jane Smith",
+      "timestamp": "2026-06-09T17:49:38.728Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n-1",
+      "userId": "u-3",
+      "message": "You have been added to the team \"Alpha Agents\" for the Global Generative AI Sprint!",
+      "read": false,
+      "timestamp": "2026-06-09T18:19:38.728Z"
+    },
+    {
+      "id": "n-2",
+      "userId": "u-2",
+      "message": "Your project submission \"Smart-Agent CRM Companion\" has been reviewed and scored by Mentor Dr. Sarah Connor!",
+      "read": false,
+      "timestamp": "2026-06-09T18:19:38.728Z"
+    }
+  ],
+  "mentorRequests": []
+}
